@@ -1,0 +1,77 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+header img{
+    width: 20%;
+    height: 20%;
+    border-radius:50%;
+}
+
+header p {
+    margin: 10px 0 0 0;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+    background-color: #f2f2f2;
+    /* Cambia el color de fondo aquí */
+}
+
+section h2 {
+    color: #333;
+}
+
+section p {
+    color: #555;
+}
+
+#nombre-profesion{
+    margin-right: 20px;
+}
+
+#biografia {
+    background-color: #f7c8dd
+}
+
+#proyectos {
+    background-color: #d2dce0;
+    /* Cambia el color de fondo aquí */
+}
+
+#habilidades {
+    background-color: #E6E6FA
+}
+
+#contacto {
+    background-color: #f5e5c2
+}
+
+/* Estilo para enlaces */
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+       text-decoration: underline;
+}
+
+section img {
+    max-width: 100%; /* La imagen no superará el ancho de su contenedor */
+    height: auto; /* Mantiene la proporción de aspecto original */
+}
